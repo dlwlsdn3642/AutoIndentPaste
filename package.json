@@ -1,11 +1,12 @@
 {
-  "name": "my-extension",
+  "name": "AutoIndentPaste",
   "displayName": "AutoIndentPaste",
   "description": "VSCode extension that automatically adjusts indentation when pasting code",
   "version": "1.0.0",
   "publisher": "dlwlsdn3642",
+  "icon": "icon.png",
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.97.2"
   },
   "activationEvents": [
     "onCommand:AutoIndentPaste.IndentPaste"
@@ -48,7 +49,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.17.2",
-    "@types/vscode": "^1.103.0",
+    "@types/vscode": "^1.97.2",
     "typescript": "^5.5.0"
   }
 }
