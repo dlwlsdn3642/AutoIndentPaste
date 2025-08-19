@@ -1,0 +1,54 @@
+{
+  "name": "my-extension",
+  "displayName": "AutoIndentPaste",
+  "description": "VSCode extension that automatically adjusts indentation when pasting code",
+  "version": "1.0.0",
+  "publisher": "dlwlsdn3642",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "activationEvents": [
+    "onCommand:AutoIndentPaste.IndentPaste"
+  ],
+  "contributes": {
+    "configuration": {
+      "title": "Auto Indent Paste",
+      "properties": {
+        "AutoIndentPaste.enableIndentPasteBinding": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable AutoIndentPaste Paste to replace the default Ctrl/Cmd+V keybinding."
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "AutoIndentPaste.IndentPaste",
+        "title": "Auto Indent Paste",
+        "category": "Paste"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "AutoIndentPaste.IndentPaste",
+        "key": "ctrl+v",
+        "when": "textInputFocus && !editorReadonly && !inDebugRepl && !terminalFocus && !notebookEditorFocused && config.AutoIndentPaste.enableIndentPasteBinding"
+      },
+      {
+        "command": "AutoIndentPaste.IndentPaste",
+        "key": "cmd+v",
+        "when": "isMac && textInputFocus && !editorReadonly && !inDebugRepl && !terminalFocus && !notebookEditorFocused && config.AutoIndentPaste.enableIndentPasteBinding"
+      }
+    ]
+  },
+  "main": "./out/extension.js",
+  "scripts": {
+    "dev": "tsc -w -p ./",
+    "build": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.2",
+    "@types/vscode": "^1.103.0",
+    "typescript": "^5.5.0"
+  }
+}
