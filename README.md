@@ -23,7 +23,7 @@ Auto‑align indentation on paste. Language‑agnostic, tab/space‑aware, and m
 
 ![AutoIndentPaste Demo](https://github.com/dlwlsdn3642/AutoIndentPaste/raw/main/demo/demo.gif)
 
-한국어로 읽기: <a href="README.ko.md">README.ko.md</a>
+한국어로 읽기: [README.ko.md](https://github.com/dlwlsdn3642/AutoIndentPaste/blob/main/README.ko.md)
 
 </div>
 
