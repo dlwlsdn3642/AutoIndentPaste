@@ -21,12 +21,7 @@ Auto‑align indentation on paste. Language‑agnostic, tab/space‑aware, and m
 <br/>
 <br/>
 
-<video src="
-https://github.com/dlwlsdn3642/AutoIndentPaste/raw/refs/heads/main/demo/demo.mp4" width="840" autoplay loop muted playsinline>
-<a href="
-https://github.com/dlwlsdn3642/AutoIndentPaste/raw/refs/heads/main/demo/demo.mp4">View the demo video</a>
-(your browser does not support embedded video)
-</video>
+![AutoIndentPaste Demo](https://github.com/dlwlsdn3642/AutoIndentPaste/raw/main/demo/demo.gif)
 
 <div>
   <a href="
