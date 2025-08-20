@@ -2,21 +2,52 @@
 
 # AutoIndentPaste
 
-붙여넣기 시 들여쓰기를 자동 정렬합니다. 언어와 무관하며, 탭/스페이스를 정확히 인식하고 멀티 커서에도 잘 동작합니다.
+# 🚀 **Just Released — August 19, 2025!**
 
 <br/>
 
-<img src="icon.png" alt="AutoIndentPaste icon" width="96" />
+<img src="icon-dark.png#gh-dark-mode-only" alt="AutoIndentPaste icon" width="160" alt="icon">
+<img src="icon.png#gh-light-mode-only" alt="AutoIndentPaste icon" width="160" alt="icon">
 
 <br/>
+<br/>
 
-<a href="https://code.visualstudio.com/">
-  <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-%E2%89%A51.97.2-007ACC?logo=visualstudiocode&logoColor=white" />
-</a>
-<a href="LICENSE">
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg" />
-</a>
-<img alt="TypeScript" src="https://img.shields.io/badge/Built%20with-TypeScript-3178C6?logo=typescript&logoColor=white" />
+![Release](https://img.shields.io/badge/New%20Release-August%2019%2C%202025-ff69b4?style=for-the-badge&logo=rocket)
+
+<p align="center">
+  <a href="https://github.com/dlwlsdn3642/AutoIndentPaste">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+              srcset="https://img.shields.io/badge/GitHub-Repo-FFFFFF?logo=github&logoColor=000&labelColor=161B22&style=for-the-badge" />
+      <img alt="GitHub Repo"
+           src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white&style=for-the-badge" />
+    </picture>
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=jinjinmory.AutoIndentPaste">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+              srcset="https://img.shields.io/visual-studio-marketplace/v/jinjinmory.AutoIndentPaste?label=Marketplace&logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge" />
+      <img alt="VS Code Marketplace (Version)"
+           src="https://img.shields.io/visual-studio-marketplace/v/jinjinmory.AutoIndentPaste?label=Marketplace&logo=visualstudiocode&logoColor=white&style=for-the-badge" />
+    </picture>
+  </a>
+  <a href="https://code.visualstudio.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+              srcset="https://img.shields.io/badge/VS%20Code-%E2%89%A5%201.97.2-007ACC?logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge" />
+      <img alt="VS Code ≥ 1.97.2"
+           src="https://img.shields.io/badge/VS%20Code-%E2%89%A5%201.97.2-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" />
+    </picture>
+  </a>
+  <a href="LICENSE">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+              srcset="https://img.shields.io/github/license/dlwlsdn3642/AutoIndentPaste?label=License&labelColor=161B22&style=for-the-badge" />
+      <img alt="License"
+           src="https://img.shields.io/github/license/dlwlsdn3642/AutoIndentPaste?label=License&style=for-the-badge" />
+    </picture>
+  </a>
+<p>
 
 <br/>
 <br/>
@@ -198,4 +229,8 @@ npm run dev
 
 ## 라이선스
 
-MIT — `LICENSE` 파일을 참고하세요.
+이 프로젝트는 MIT 라이센스를 사용합니다.
+<br>
+[LICENSE](LICENSE) 파일을 참고하세요.
+
+아이콘은 [Lucide License](LICENSE_icon)의 라이센스를 따릅니다.
