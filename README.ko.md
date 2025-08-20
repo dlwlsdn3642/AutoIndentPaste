@@ -22,8 +22,7 @@
 <br/>
 
 ![AutoIndentPaste Demo](https://github.com/dlwlsdn3642/AutoIndentPaste/raw/main/demo/demo.gif)
-
-<a href="README.md">English</a>
+[English](https://github.com/dlwlsdn3642/AutoIndentPaste/tree/main)
 
 </div>
 
