@@ -15,3 +15,10 @@
 - Added attribution for project icon in the **License** section.
 - Added a **GitHub repository badge** alongside existing badges in README for quick access.
 - Added support for both dark and light modes.
+
+## [1.0.2] - 2025-08-21
+
+### Icon Fix
+
+- Noticed that the Marketplace doesn’t support dark and light modes.
+- Added New icon

@@ -6,8 +6,7 @@
 
 <br/>
 
-<img src="icon-dark.png#gh-dark-mode-only" alt="AutoIndentPaste icon" width="160" alt="icon">
-<img src="icon.png#gh-light-mode-only" alt="AutoIndentPaste icon" width="160" alt="icon">
+<img src="icon.png" alt="AutoIndentPaste icon" width="240" alt="icon">
 
 <br/>
 <br/>
