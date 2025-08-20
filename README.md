@@ -13,28 +13,10 @@
 
 ![Release](https://img.shields.io/badge/New%20Release-August%2019%2C%202025-ff69b4?style=for-the-badge&logo=rocket)
 
-<p align="center">
-  <a href="https://github.com/dlwlsdn3642/AutoIndentPaste">
-    <img
-      alt="GitHub Repo"
-      src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white&labelColor=161B22&style=for-the-badge" />
-  </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=jinjinmory.AutoIndentPaste">
-    <img
-      alt="VS Code Marketplace (Version)"
-      src="https://img.shields.io/visual-studio-marketplace/v/jinjinmory.AutoIndentPaste?label=Marketplace&logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge" />
-  </a>
-  <a href="https://code.visualstudio.com/">
-    <img
-      alt="VS Code ≥ 1.97.2"
-      src="https://img.shields.io/badge/VS%20Code-%E2%89%A5%201.97.2-007ACC?logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge" />
-  </a>
-  <a href="LICENSE">
-    <img
-      alt="License"
-      src="https://img.shields.io/github/license/dlwlsdn3642/AutoIndentPaste?label=License&labelColor=161B22&style=for-the-badge" />
-  </a>
-</p>
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white&labelColor=161B22&style=for-the-badge)](https://github.com/dlwlsdn3642/AutoIndentPaste)
+[![VS Code Marketplace (Version)](https://img.shields.io/visual-studio-marketplace/v/jinjinmory.AutoIndentPaste?label=Marketplace&logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=jinjinmory.AutoIndentPaste)
+[![VS Code ≥ 1.97.2](https://img.shields.io/badge/VS%20Code-%E2%89%A5%201.97.2-007ACC?logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge)](https://code.visualstudio.com/)
+[![License](https://img.shields.io/github/license/dlwlsdn3642/AutoIndentPaste?label=License&labelColor=161B22&style=for-the-badge)](LICENSE)
 
 <br/>
 <br/>
