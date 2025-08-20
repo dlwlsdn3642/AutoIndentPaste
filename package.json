@@ -5,6 +5,10 @@
   "version": "1.0.0",
   "publisher": "dlwlsdn3642",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlwlsdn3642/AutoIndentPaste.git"
+  },
   "engines": {
     "vscode": "^1.97.2"
   },
@@ -33,12 +37,8 @@
       {
         "command": "AutoIndentPaste.IndentPaste",
         "key": "ctrl+v",
-        "when": "textInputFocus && !editorReadonly && !inDebugRepl && !terminalFocus && !notebookEditorFocused && config.AutoIndentPaste.enableIndentPasteBinding"
-      },
-      {
-        "command": "AutoIndentPaste.IndentPaste",
-        "key": "cmd+v",
-        "when": "isMac && textInputFocus && !editorReadonly && !inDebugRepl && !terminalFocus && !notebookEditorFocused && config.AutoIndentPaste.enableIndentPasteBinding"
+        "mac": "cmd+v",
+        "when": "(editorTextFocus || notebookCellEditorFocused) && !editorReadonly && config.AutoIndentPaste.enableIndentPasteBinding"
       }
     ]
   },
