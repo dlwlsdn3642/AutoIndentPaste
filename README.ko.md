@@ -23,11 +23,7 @@
 
 ![AutoIndentPaste Demo](https://github.com/dlwlsdn3642/AutoIndentPaste/raw/main/demo/demo.gif)
 
-<div>
-  <a href="demo/demo.mp4">MP4로 열기</a>
-  ·
-  <a href="README.md">English</a>
-</div>
+<a href="README.md">English</a>
 
 </div>
 
@@ -54,10 +50,6 @@
 - EOL 유지: 붙여넣기 텍스트의 개행(LF/CRLF)을 대상 문서와 일치시켜 의미 없는 diff를 줄입니다.
 - format on paste 친화: `editor.formatOnPaste`가 켜져 있으면, 붙여넣은 구간만 범위 포맷팅을 요청하고 겹치는 영역은 병합해 변경을 최소화합니다.
 - 클립보드 안전: 에디터 API로만 텍스트를 삽입하므로 시스템 클립보드는 변경하지 않습니다.
-
-## 데모
-
-- 비디오: `demo/demo.mp4`
 
 ## 동작 원리
 

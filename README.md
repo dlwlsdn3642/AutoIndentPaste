@@ -23,11 +23,6 @@ Auto‑align indentation on paste. Language‑agnostic, tab/space‑aware, and m
 
 ![AutoIndentPaste Demo](https://github.com/dlwlsdn3642/AutoIndentPaste/raw/main/demo/demo.gif)
 
-<div>
-  <a href="
-https://github.com/dlwlsdn3642/AutoIndentPaste/raw/refs/heads/main/demo/demo.mp4">Open demo as MP4</a>
-</div>
-
 한국어로 읽기: <a href="README.ko.md">README.ko.md</a>
 
 </div>
@@ -55,10 +50,6 @@ https://github.com/dlwlsdn3642/AutoIndentPaste/raw/refs/heads/main/demo/demo.mp4
 - Respects EOLs: clipboard line endings are normalized to the target document (LF/CRLF) to avoid diff noise.
 - Format on paste friendly: if `editor.formatOnPaste` is enabled, requests range formatting only over pasted spans and merges overlaps to reduce churn.
 - Clipboard‑safe: inserts via editor APIs; your system clipboard remains untouched.
-
-## Demo
-
-Inline demo is embedded above. If it doesn’t autoplay, click to play or use the link: `demo/demo.mp4`.
 
 ## How It Works
 
