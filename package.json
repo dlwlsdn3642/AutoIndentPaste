@@ -2,7 +2,7 @@
   "name": "AutoIndentPaste",
   "displayName": "AutoIndentPaste",
   "description": "VSCode extension that automatically adjusts indentation when pasting code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "jinjinmory",
   "icon": "icon.png",
   "repository": {

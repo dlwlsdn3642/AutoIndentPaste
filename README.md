@@ -15,38 +15,29 @@
 
 <p align="center">
   <a href="https://github.com/dlwlsdn3642/AutoIndentPaste">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"
-              srcset="https://img.shields.io/badge/GitHub-Repo-FFFFFF?logo=github&logoColor=000&labelColor=161B22&style=for-the-badge" />
-      <img alt="GitHub Repo"
-           src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white&style=for-the-badge" />
-    </picture>
+    <img
+      alt="GitHub Repo"
+      src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white&labelColor=161B22&style=for-the-badge" />
   </a>
+
   <a href="https://marketplace.visualstudio.com/items?itemName=jinjinmory.AutoIndentPaste">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"
-              srcset="https://img.shields.io/visual-studio-marketplace/v/jinjinmory.AutoIndentPaste?label=Marketplace&logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge" />
-      <img alt="VS Code Marketplace (Version)"
-           src="https://img.shields.io/visual-studio-marketplace/v/jinjinmory.AutoIndentPaste?label=Marketplace&logo=visualstudiocode&logoColor=white&style=for-the-badge" />
-    </picture>
+    <img
+      alt="VS Code Marketplace (Version)"
+      src="https://img.shields.io/visual-studio-marketplace/v/jinjinmory.AutoIndentPaste?label=Marketplace&logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge" />
   </a>
+
   <a href="https://code.visualstudio.com/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"
-              srcset="https://img.shields.io/badge/VS%20Code-%E2%89%A5%201.97.2-007ACC?logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge" />
-      <img alt="VS Code ≥ 1.97.2"
-           src="https://img.shields.io/badge/VS%20Code-%E2%89%A5%201.97.2-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" />
-    </picture>
+    <img
+      alt="VS Code ≥ 1.97.2"
+      src="https://img.shields.io/badge/VS%20Code-%E2%89%A5%201.97.2-007ACC?logo=visualstudiocode&logoColor=white&labelColor=1E1E1E&style=for-the-badge" />
   </a>
+
   <a href="LICENSE">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"
-              srcset="https://img.shields.io/github/license/dlwlsdn3642/AutoIndentPaste?label=License&labelColor=161B22&style=for-the-badge" />
-      <img alt="License"
-           src="https://img.shields.io/github/license/dlwlsdn3642/AutoIndentPaste?label=License&style=for-the-badge" />
-    </picture>
+    <img
+      alt="License"
+      src="https://img.shields.io/github/license/dlwlsdn3642/AutoIndentPaste?label=License&labelColor=161B22&style=for-the-badge" />
   </a>
-<p>
+</p>
 
 <br/>
 <br/>

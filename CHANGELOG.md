@@ -22,3 +22,9 @@
 
 - Noticed that the Marketplace doesn’t support dark and light modes.
 - Added New icon
+
+## [1.0.3] - 2025-08-22
+
+### README.md fix
+
+- Fix Markdown syntax error
