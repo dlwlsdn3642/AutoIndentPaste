@@ -21,20 +21,19 @@ Auto‑align indentation on paste. Language‑agnostic, tab/space‑aware, and m
 <br/>
 <br/>
 
-<video src="demo/demo.mp4" width="840" autoplay loop muted playsinline>
-  <a href="demo/demo.mp4">View the demo video</a>
-  (your browser does not support embedded video)
-  </video>
+<video src="
+https://github.com/dlwlsdn3642/AutoIndentPaste/raw/refs/heads/main/demo/demo.mp4" width="840" autoplay loop muted playsinline>
+<a href="
+https://github.com/dlwlsdn3642/AutoIndentPaste/raw/refs/heads/main/demo/demo.mp4">View the demo video</a>
+(your browser does not support embedded video)
+</video>
 
 <div>
-  <a href="demo/demo.mp4">Open demo as MP4</a>
-  ·
-  <a href="README.ko.md">한국어 문서</a>
+  <a href="
+https://github.com/dlwlsdn3642/AutoIndentPaste/raw/refs/heads/main/demo/demo.mp4">Open demo as MP4</a>
 </div>
 
-<br/>
-
-Read this in Korean: <a href="README.ko.md">README.ko.md</a>
+한국어로 읽기: <a href="README.ko.md">README.ko.md</a>
 
 </div>
 
@@ -68,21 +67,24 @@ Inline demo is embedded above. If it doesn’t autoplay, click to play or use th
 
 ## How It Works
 
-1) Prebake the clipboard
+1. Prebake the clipboard
+
    - Scan each line’s leading whitespace → record `(charsConsumed, visualColumns)`.
    - Derive a baseline `B` from non‑empty trailing lines (the first line’s indent isn’t used to shift itself).
    - For each line after the first, compute `C = max(0, indent − B)`.
 
-2) Measure the target
+2. Measure the target
+
    - For each cursor, if the text on the left isn’t indent‑only, paste verbatim at that position.
 
-3) Assemble
+3. Assemble
+
    - Let `A` be the current cursor‑left columns.
    - First line: original text
    - Others: `makeIndent(A + C, preferTabs)` + original text
    - `preferTabs` becomes true when a tab exists to the left or the editor uses tabs.
 
-4) Post‑paste polish
+4. Post‑paste polish
    - Move cursors to the ends of inserted blocks, reveal the last cursor, then (optionally) apply range formatting.
 
 This is language‑agnostic: no syntax heuristics, only columns + editor settings.

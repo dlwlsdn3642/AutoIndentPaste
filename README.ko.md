@@ -21,10 +21,12 @@
 <br/>
 <br/>
 
-<video src="demo/demo.mp4" width="840" autoplay loop muted playsinline>
-  <a href="demo/demo.mp4">데모 비디오 보기</a>
-  (브라우저에서 임베디드 비디오를 지원하지 않습니다)
-  </video>
+<video src="
+https://github.com/dlwlsdn3642/AutoIndentPaste/raw/refs/heads/main/demo/demo.mp4" width="840" autoplay loop muted playsinline>
+<a href="
+https://github.com/dlwlsdn3642/AutoIndentPaste/raw/refs/heads/main/demo/demo.mp4">데모 비디오 보기</a>
+(브라우저에서 임베디드 비디오를 지원하지 않습니다)
+</video>
 
 <div>
   <a href="demo/demo.mp4">MP4로 열기</a>
